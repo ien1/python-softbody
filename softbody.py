@@ -1,7 +1,6 @@
 from math import sqrt
 import pygame
 import pymunk
-import pymunk.pygame_util as pygu
 
 class SoftBody():
     def __init__(self, space, position, x, y, rest_length, stiffness, damping, ball_mass=0.1, ball_radius=0.1):
