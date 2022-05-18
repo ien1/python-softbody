@@ -78,13 +78,10 @@ if __name__ == "__main__":
     STIFFNESS = 1000
     DAMPING = 1
     REST_LENGTH = 25
-    # balls:
-    BALL_MASS = 0
-    BALL_RADIUS = 0
 
     # additional ball properties
-    ADD_BALL_MASS = 1
-    ADD_BALL_RAD = 5
+    ADD_BALL_MASS = 3
+    ADD_BALL_RAD = 35
 
 
     # pygame screen
